@@ -1,0 +1,25 @@
+{
+  "name": "pwnmonk.github.io",
+  "version": "1.0.0",
+  "description": "PwnMonk's security research and development blog",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwnmonk/pwnmonk.github.io.git"
+  },
+  "keywords": ["blog", "security", "research", "vitepress"],
+  "author": "pwnmonk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwnmonk/pwnmonk.github.io/issues"
+  },
+  "homepage": "https://pwnmonk.github.io",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.12"
+  }
+}
