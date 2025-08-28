@@ -5,7 +5,10 @@ export default defineConfig({
   title: "kernel kathas",
   description: "pwnmonk's kernel fumbles",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' }
@@ -22,7 +25,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/pwnmonk' }
+      { icon: 'github', link: 'https://github.com/pwnmonk' },
+      { icon: 'x', link: 'https://x.com/pwnmonk' },
     ]
   }
 })

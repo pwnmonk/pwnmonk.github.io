@@ -5,20 +5,13 @@ layout: home
 hero:
   name: "kernel kathas"
   tagline: "pwnmonk's kernel fumbles"
+  image:
+  src: /avatar.jpg
+  alt: pwnmonk
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Latest Posts
+      link: /posts/
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
